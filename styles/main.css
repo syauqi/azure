@@ -110,8 +110,47 @@
   background-color: #0ab2eb;
 }
 
+.text-azure {
+  color: #0ab2eb;
+}
+
+.logo-list {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.logo-list img {
+  display: inline-block;
+  max-width: 85%;
+  padding: 15px 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(100);
+  -moz-filter: grayscale(100);
+  filter: grayscale(100);
+}
+.logo-list img:hover {
+  filter: none;
+  transform: scale(1.2);
+  -webkit-filter: none;
+  -moz-filter: none;
+}
+
+.box-shadow-1 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 4px 0px,
+    rgba(0, 0, 0, 0.05) 0px -2px 2px 0px inset;
+}
+
 .fw-500 {
   font-weight: 500;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-800 {
+  font-weight: 800;
 }
 
 .fs-14 {
